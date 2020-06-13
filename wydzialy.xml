@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<wydzialy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="wydzialy.xsd">
+    <wydzial wydzialID="wydzial-1">
+        <nazwa>Wydzial 1</nazwa>
+        <adres>
+            <ulica>1</ulica>
+            <ulicaNr>1</ulicaNr>
+            <kodPocztowy>11-111</kodPocztowy>
+            <miasto>1</miasto>
+        </adres>
+        <adres>
+            <ulica>1</ulica>
+            <ulicaNr>1</ulicaNr>
+            <kodPocztowy>11-111</kodPocztowy>
+            <miasto>1</miasto>
+        </adres>
+        <pracownik pracownikID="pracownik-11">
+            <imie>1</imie>
+            <nazwisko>1</nazwisko>
+            <typ>naukowy</typ>
+            <adres>
+                <ulica>1</ulica>
+                <ulicaNr>1</ulicaNr>
+                <kodPocztowy>11-111</kodPocztowy>
+                <miasto>1</miasto>
+            </adres>
+        </pracownik>
+        <pracownik pracownikID="pracownik-12">
+            <imie>1</imie>
+            <nazwisko>1</nazwisko>
+            <typ>naukowy</typ>
+            <adres>
+                <ulica>1</ulica>
+                <ulicaNr>1</ulicaNr>
+                <kodPocztowy>11-111</kodPocztowy>
+                <miasto>1</miasto>
+            </adres>
+        </pracownik>
+        <przedmiot przedmiotID="przedmiot-1" wykladowcaIDs="pracownik-11">
+            <nazwa>1</nazwa>
+            <liczbaUczesntikow>11</liczbaUczesntikow>
+        </przedmiot>
+        <przedmiot przedmiotID="przedmiot-12" wykladowcaIDs="pracownik-11 pracownik-12">
+            <nazwa>1</nazwa>
+            <liczbaUczesntikow>11</liczbaUczesntikow>
+        </przedmiot>
+    </wydzial>
+
+    <wydzial wydzialID="wydzial-2">
+        <nazwa>Wydzial 1</nazwa>
+        <adres>
+            <ulica>1</ulica>
+            <ulicaNr>1</ulicaNr>
+            <kodPocztowy>11-111</kodPocztowy>
+            <miasto>1</miasto>
+        </adres>
+        <pracownik pracownikID="pracownik-21">
+            <imie>1</imie>
+            <nazwisko>1</nazwisko>
+            <typ>administracyjny</typ>
+            <adres>
+                <ulica>1</ulica>
+                <ulicaNr>1</ulicaNr>
+                <kodPocztowy>11-111</kodPocztowy>
+                <miasto>1</miasto>
+            </adres>
+        </pracownik>
+        <pracownik pracownikID="pracownik-22">
+            <imie>1</imie>
+            <nazwisko>1</nazwisko>
+            <typ>techniczny</typ>
+            <adres>
+                <ulica>1</ulica>
+                <ulicaNr>1</ulicaNr>
+                <kodPocztowy>11-111</kodPocztowy>
+                <miasto>1</miasto>
+            </adres>
+        </pracownik>
+        <przedmiot przedmiotID="przedmiot-21" wykladowcaIDs="pracownik-21 pracownik-21">
+            <nazwa>1</nazwa>
+            <liczbaUczesntikow>11</liczbaUczesntikow>
+        </przedmiot>
+    </wydzial>
+</wydzialy>
